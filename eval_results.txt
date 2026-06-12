@@ -1,0 +1,156 @@
+RETAINIQ — AI EVAL RESULTS
+============================================================
+Instructions: Open this file, read each recommendation,
+and fill in: is_specific, is_actionable, quality_score (1-5)
+============================================================
+
+
+--- Customer 1 ---
+Profile: {'churn_risk': 94, 'contract': 'Month-to-month', 'tenure_months': 2, 'monthly_charges': 89.5, 'top_drivers': 'Contract type, Low tenure'}
+Recommendation:
+1. Reach out to discuss converting to an annual contract, highlighting cost savings and long-term benefits.
+2. Schedule a call to review onboarding progress, address gaps, and ensure quick wins within the next 30 days.
+Auto scores: {'word_count': 35, 'under_80_words': True, 'has_two_actions': True, 'mentions_context': True, 'is_specific': None, 'is_actionable': None, 'quality_score': None}
+
+YOUR RATING:
+  is_specific   : [ yes ] True  [ ] False
+  is_actionable : [ yes ] True  [ ] False
+  quality_score : __4_ /5
+  notes         : ___________________________
+
+------------------------------------------------------------
+
+--- Customer 2 ---
+Profile: {'churn_risk': 87, 'contract': 'Month-to-month', 'tenure_months': 8, 'monthly_charges': 74.2, 'top_drivers': 'No online security, High monthly charges'}
+Recommendation:
+1. Call the customer to discuss the $74.20 monthly charges, inquiring about budget concerns and exploring potential downgrading options.
+2. Offer a discounted online security add-on to address the security gap and increase perceived value.
+Auto scores: {'word_count': 35, 'under_80_words': True, 'has_two_actions': True, 'mentions_context': False, 'is_specific': None, 'is_actionable': None, 'quality_score': None}
+
+YOUR RATING:
+  is_specific   : [ yes ] True  [ ] False
+  is_actionable : [ yes ] True  [ ] False
+  quality_score : __5_ /5
+  notes         : ___________________________
+
+------------------------------------------------------------
+
+--- Customer 3 ---
+Profile: {'churn_risk': 81, 'contract': 'Month-to-month', 'tenure_months': 14, 'monthly_charges': 95.3, 'top_drivers': 'No tech support, High monthly charges'}
+Recommendation:
+1. Reach out to discuss billing and offer a discounted annual plan to reduce monthly charges.
+2. Schedule a tech support session to address any unanswered questions and demonstrate value.
+Auto scores: {'word_count': 30, 'under_80_words': True, 'has_two_actions': True, 'mentions_context': False, 'is_specific': None, 'is_actionable': None, 'quality_score': None}
+
+YOUR RATING:
+  is_specific   : [ true ] True  [ ] False
+  is_actionable : [ true ] True  [ ] False
+  quality_score : __4_ /5
+  notes         : ___________________________
+
+------------------------------------------------------------
+
+--- Customer 4 ---
+Profile: {'churn_risk': 76, 'contract': 'One year', 'tenure_months': 5, 'monthly_charges': 65.0, 'top_drivers': 'Low tenure, Contract type'}
+Recommendation:
+1. Reach out to discuss contract flexibility, offering a month-to-month option to reduce perceived commitment risk.
+2. Schedule an onboarding review to ensure customer is achieving quick wins and realizing value from the platform.
+Auto scores: {'word_count': 34, 'under_80_words': True, 'has_two_actions': True, 'mentions_context': True, 'is_specific': None, 'is_actionable': None, 'quality_score': None}
+
+YOUR RATING:
+  is_specific   : [ yes ] True  [ ] False
+  is_actionable : [ yes ] True  [ ] False
+  quality_score : __4_ /5
+  notes         : ___________________________
+
+------------------------------------------------------------
+
+--- Customer 5 ---
+Profile: {'churn_risk': 72, 'contract': 'Month-to-month', 'tenure_months': 3, 'monthly_charges': 45.5, 'top_drivers': 'Contract type, Low tenure'}
+Recommendation:
+1. Call the customer to discuss benefits of annual contract, highlighting cost savings of $5.50/month.
+2. Schedule a follow-up onboarding session to ensure they're achieving quick wins with our platform.
+Auto scores: {'word_count': 30, 'under_80_words': True, 'has_two_actions': True, 'mentions_context': True, 'is_specific': None, 'is_actionable': None, 'quality_score': None}
+
+YOUR RATING:
+  is_specific   : [ yes ] True  [ ] False
+  is_actionable : [  yes ] True  [ ] False
+  quality_score : __4_ /5
+  notes         : ___________________________
+
+------------------------------------------------------------
+
+--- Customer 6 ---
+Profile: {'churn_risk': 91, 'contract': 'Month-to-month', 'tenure_months': 1, 'monthly_charges': 110.0, 'top_drivers': 'Contract type, High monthly charges'}
+Recommendation:
+1. Offer a discounted monthly rate ($80-$90) to reduce financial burden, referencing the high monthly charges as a concern.
+2. Discuss a annual contract option to provide stability and potential savings, addressing the month-to-month contract type as a churn risk.
+Auto scores: {'word_count': 40, 'under_80_words': True, 'has_two_actions': True, 'mentions_context': True, 'is_specific': None, 'is_actionable': None, 'quality_score': None}
+
+YOUR RATING:
+  is_specific   : [ yes ] True  [ ] False
+  is_actionable : [ yes ] True  [ ] False
+  quality_score : _5__ /5
+  notes         : ___________________________
+
+------------------------------------------------------------
+
+--- Customer 7 ---
+Profile: {'churn_risk': 83, 'contract': 'Month-to-month', 'tenure_months': 20, 'monthly_charges': 88.75, 'top_drivers': 'No online security, No tech support'}
+Recommendation:
+1. Reach out to offer a complimentary online security setup to address the missing feature.
+2. Schedule a tech support onboarding session to educate the customer on available resources.
+Auto scores: {'word_count': 29, 'under_80_words': True, 'has_two_actions': True, 'mentions_context': False, 'is_specific': None, 'is_actionable': None, 'quality_score': None}
+
+YOUR RATING:
+  is_specific   : [yes ] True  [ ] False
+  is_actionable : [ yes ] True  [ ] False
+  quality_score : __5_ /5
+  notes         : ___________________________
+
+------------------------------------------------------------
+
+--- Customer 8 ---
+Profile: {'churn_risk': 78, 'contract': 'One year', 'tenure_months': 11, 'monthly_charges': 58.2, 'top_drivers': 'Contract type, Low tenure'}
+Recommendation:
+1. Reach out to discuss contract renewal, highlighting the benefits of a longer-term commitment.
+2. Offer a personalized review of their account to identify untapped features and added value.
+Auto scores: {'word_count': 29, 'under_80_words': True, 'has_two_actions': True, 'mentions_context': True, 'is_specific': None, 'is_actionable': None, 'quality_score': None}
+
+YOUR RATING:
+  is_specific   : [ yes ] True  [ ] False
+  is_actionable : [ yes ] True  [ ] False
+  quality_score : _5__ /5
+  notes         : ___________________________
+
+------------------------------------------------------------
+
+--- Customer 9 ---
+Profile: {'churn_risk': 70, 'contract': 'Month-to-month', 'tenure_months': 6, 'monthly_charges': 72.0, 'top_drivers': 'High monthly charges, No tech support'}
+Recommendation:
+1. Reach out to discuss flexible pricing options, citing $72 monthly charges as a concern.
+2. Offer complimentary tech support session to address unmet needs and enhance customer experience.
+Auto scores: {'word_count': 29, 'under_80_words': True, 'has_two_actions': True, 'mentions_context': False, 'is_specific': None, 'is_actionable': None, 'quality_score': None}
+
+YOUR RATING:
+  is_specific   : [ yes ] True  [ ] False
+  is_actionable : [ yes ] True  [ ] False
+  quality_score : __4_ /5
+  notes         : ___________________________
+
+------------------------------------------------------------
+
+--- Customer 10 ---
+Profile: {'churn_risk': 85, 'contract': 'Month-to-month', 'tenure_months': 4, 'monthly_charges': 99.99, 'top_drivers': 'Contract type, High monthly charges, Low tenure'}
+Recommendation:
+1. Reach out to discuss contract flexibility, offering a discounted annual plan to reduce monthly charges.
+2. Schedule a value review call to highlight quick wins and key benefits, addressing concerns and increasing perceived value.
+Auto scores: {'word_count': 35, 'under_80_words': True, 'has_two_actions': True, 'mentions_context': True, 'is_specific': None, 'is_actionable': None, 'quality_score': None}
+
+YOUR RATING:
+  is_specific   : [  yes ] True  [ ] False
+  is_actionable : [ yes  ] True  [ ] False
+  quality_score : __3_ /5
+  notes         : ___________________________
+
+------------------------------------------------------------

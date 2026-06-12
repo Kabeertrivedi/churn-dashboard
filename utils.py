@@ -28,14 +28,15 @@ def load_data(path: str) -> pd.DataFrame:
     df["Contract_label"] = df["Contract"]
     df["Churn"] = df["Churn"].map({"Yes": 1, "No": 0})
 
-    # Dropping customerID
-    df.drop(columns=["customerID"], inplace=True, errors="ignore")
+    # Keep customerID for UI search functionality
+    # df.drop(columns=["customerID"], inplace=True, errors="ignore")
 
     # Encoding categorical columns
     cat_cols = df.select_dtypes(include="object").columns.tolist()
     le = LabelEncoder()
     for col in cat_cols:
-        df[col] = le.fit_transform(df[col])
+        if col not in ["customerID", "Contract_label"]:
+            df[col] = le.fit_transform(df[col])
 
     return df
 
